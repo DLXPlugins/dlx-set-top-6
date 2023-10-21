@@ -1,0 +1,15 @@
+{
+  "name": "dlx-set-top-6",
+  "version": "1.0.0",
+  "description": "Set the top 6 in the block editor.",
+  "main": "src/index.js",
+  "scripts": {
+	"start": "wp-scripts start --env mode=development",
+	"build": "wp-scripts build --env mode=production"
+},
+  "author": "Ronald Huereca <ronald@dlxplugins.com>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.15.0"
+  }
+}
